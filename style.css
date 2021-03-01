@@ -15,6 +15,10 @@ p {
     font-weight: 400;
 }
 
+li ul {
+  display:inline-block;
+}
+
 /* YELLOW LINKS */
 p>a li>a ul>a {
     background: linear-gradient(to right, var(--c-high), var(--c-high-light));
@@ -24,7 +28,7 @@ p>a li>a ul>a {
     transition-property: background-position;
     transition-duration: 300ms;
     padding: 0;
-    display:inline-block;
+    display: block;
 }
 
 .border {
