@@ -2,12 +2,12 @@
 @import url(//db.onlinewebfonts.com/c/ee2d6efb70dae6b477d30df1fd294972?family=Bitstream+Iowan+Old+Style);
 @font-face {
   font-family: "Bitstream Iowan Old Style";
-  src: url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot");
-  src: url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot?#iefix") format("embedded-opentype"),
-  url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff2") format("woff2"),
-  url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff") format("woff"),
-  url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.ttf") format("truetype"),
-  url("db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.svg#Bitstream Iowan Old Style") format("svg");
+  src: url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot");
+  src: url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.svg#Bitstream Iowan Old Style") format("svg");
 }
 
 body {
@@ -24,7 +24,7 @@ p {
     display: block;
     margin: 0px;
     padding: 0px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* YELLOW LINKS */
