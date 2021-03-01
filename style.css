@@ -20,7 +20,7 @@ ul {
 }
 
 /* YELLOW LINKS */
-p>a {
+a {
     background: linear-gradient(to right, var(--c-high), var(--c-high-light));
     background-size: 300% 40%;
     background-repeat: no-repeat;
