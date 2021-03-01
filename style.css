@@ -1,0 +1,153 @@
+/* FONT */
+@import url(//db.onlinewebfonts.com/c/ee2d6efb70dae6b477d30df1fd294972?family=Bitstream+Iowan+Old+Style);
+@font-face {font-family: "Iowan Old Style"; src: url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot"); src: url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.woff") format("woff"), url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ee2d6efb70dae6b477d30df1fd294972.svg#Bitstream Iowan Old Style") format("svg"); }
+
+body {
+    font-family: Iowan Old Style, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(64, 64, 64);
+    display: flex;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 32px;
+}
+
+p {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+
+/* YELLOW LINKS */
+p>a {
+    background: linear-gradient(to right, var(--c-high), var(--c-high-light));
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    transition-property: background-position;
+    transition-duration: 300ms;
+    padding: 0;
+}
+
+.border {
+    padding: 10em;
+    padding-top: 6em;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    justify-content: center;
+    margin-top: 3.5em;
+    margin-bottom: 4em;
+    flex-wrap: wrap;
+    max-width: 576px;
+}
+
+p.ind {
+    text-indent: 2em;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media only screen and (max-width: 601px) {
+    body {
+        font-size: 16px;
+        text-align: start;
+        line-height: 24px;
+        text-decoration-style: solid;
+        text-decoration-line: none;
+    }
+    .border {
+        padding: 3em;
+        padding-top: 8em;
+    }
+    .row {
+        max-width: 432px;
+    }
+  }
+
+
+/* UNKNOWN */
+/* *, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-decoration: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    /* background-image: linear-gradient(to right, rgba(126, 122, 89, 0.4)); */
+  }
+  
+  a:link {
+    color: rgb(64, 64, 64);
+  }
+  
+  /* a:visited {
+    color: rgb(238, 223, 91);
+  }
+  
+
+  a:hover {
+    border-bottom: 1px solid;
+    background:  rgb(238, 223, 91);;
+  }
+
+  */
+  
+
+  /* a:focus {
+    background: rgb(64, 64, 64, 0.0);
+  } */
+  
+  
+  a:active {
+    color: rgb(64, 64, 64);
+  } 
+
+a {
+    --c-bg: hsl(0,0%,100%);
+    --c-bg-light: hsl(0,0%,97%);
+    --c-high: hsla(54,100%,62%,0.4);
+    --c-high-light: hsla(54,100%,62%,0.9);
+    --c-text: hsl(0,0%,25%);
+    --c-text-mid: hsl(0,0%,50%);
+    --c-text-light: hsl(0,0%,97%);
+}
+
+a:hover {
+    --c-bg: hsl(0,0%,100%);
+    --c-bg-light: hsl(0,0%,97%);
+    --c-high: rgba(221, 202, 33, 0.4);
+    --c-high-light: rgba(231, 211, 31, 0.9);
+    --c-text: hsl(0,0%,25%);
+    --c-text-mid: rgb(107, 107, 107);
+    --c-text-light: hsl(0,0%,97%);
+}
