@@ -24,6 +24,7 @@ p>a li>a ul>a {
     transition-property: background-position;
     transition-duration: 300ms;
     padding: 0;
+    display: block;
 }
 
 .border {
