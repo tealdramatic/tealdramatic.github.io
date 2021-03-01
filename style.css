@@ -15,6 +15,10 @@ p {
     font-weight: 400;
 }
 
+li ul {
+  display:inline-block;
+}
+
 /* YELLOW LINKS */
 p>a li>a ul>a {
     background: linear-gradient(to right, var(--c-high), var(--c-high-light));
@@ -45,6 +49,7 @@ p>a li>a ul>a {
     max-width: 576px;
 }
 
+/* indented paragraph */
 p.ind {
     text-indent: 2em;
 }
